@@ -656,7 +656,6 @@
       "label": "Texto",
       "config": {
         "text": "<p><strong style=\"font-size: 20px;\">Actividades Madrid</strong></p><p>En los próximos 11 días</p>",
-        "placeholder": "Haga doble clic para editar texto",
         "style": {
           "wrap": true
         }
@@ -1360,7 +1359,6 @@
       "label": "Texto 2",
       "config": {
         "text": "<p><strong style=\"font-size: 20px;\">﻿Bienvenido </strong></p>",
-        "placeholder": "<p><strong style=\"font-size: 14px;\">Título</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1374,7 +1372,6 @@
       "label": "Texto 3",
       "config": {
         "text": "<p style=\"text-align: left;\">Podrás conocer la predicción de las actividades de Madrid y su ubicación real.</p>",
-        "placeholder": "<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2832,7 +2829,7 @@
         "LARGE": "layout_10"
       },
       "index": 0,
-      "isSplash": false,
+      "isSplash": true,
       "border": {
         "color": "var(--sys-color-divider-secondary)",
         "type": "solid",
@@ -2879,9 +2876,16 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://educacionEsri.maps.arcgis.com"
+    "portalUrl": "https://educacionEsri.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "UiQrjJ2r6r8wCrFq",
+    "express": false,
+    "title": "Experiencia Actividades Experto 2026",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1776281921861,
+  "timestamp": 1776865508510,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
@@ -3019,5 +3023,6 @@
       "source": "org",
       "orgSetting": {}
     }
-  }
+  },
+  "publishTimestamp": 1776865512205
 }
